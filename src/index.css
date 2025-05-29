@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100 900;
+    src: url('https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm459Wl0.woff2') format('woff2');
+}
+
+@theme {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-Lato: 'Lato', sans-serif;
+}
+
+@theme {
+    --color-ForestGreen: #06402B;
+    --color-accent-cyan: #51C4F5;
+}
