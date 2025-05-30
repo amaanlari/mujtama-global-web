@@ -1,5 +1,6 @@
 import {useState} from "react";
 import {Menu, X} from "lucide-react";
+import {Link} from "react-router-dom";
 
 type NavLink = {
     name: string;
@@ -8,8 +9,8 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
     {name: 'Home', href: '/'},
-    {name: 'About Us', href: '/about'},
-    {name: 'Contact Us', href: '/contact'},
+    {name: 'About Us', href: '/about-us'},
+    {name: 'Contact Us', href: '/contact-us'},
 ];
 
 export default function Navbar() {
@@ -33,8 +34,8 @@ export default function Navbar() {
                     <ul className="flex justify-center gap-x-20 ">
                         {navLinks.map((link) => (
                             <li key={link.name}>
-                                <a
-                                    href={link.href}
+                                <Link
+                                    to={link.href}
                                     className={`transition-colors duration-300 ${
                                         activeLink === link.href
                                             ? 'text-ForestGreen font-bold' // Active link color
@@ -43,7 +44,7 @@ export default function Navbar() {
                                     onClick={() => setActiveLink(link.href)}
                                 >
                                     {link.name}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
