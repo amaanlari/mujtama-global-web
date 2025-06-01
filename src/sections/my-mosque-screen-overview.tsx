@@ -68,6 +68,64 @@ function MyMosqueScreenOverview() {
                     </div>
                 </div>
             </div>
+
+            <div className={"lg:hidden"}>
+                <div
+                    className="px-4 py-6 inline-flex flex-col justify-center items-center">
+                    <div className="self-stretch flex flex-col justify-start items-start gap-[5px]">
+                        <div
+                            className="self-stretch justify-center text-black text-xl font-semibold font-['Montserrat'] leading-7 tracking-wide">My
+                            Mosques Screen Overview
+                        </div>
+                        <div
+                            className="self-stretch justify-center text-black text-sm font-normal font-['Montserrat'] leading-tight tracking-wide">Easily
+                            manage and access the mosques you follow for real-time Salah updates, directions, and
+                            personalized prayer tracking.
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            src="/assets/images/my-mosque-screen-overview-image.png"
+                            alt="My Mosques Screen Overview"
+                        />
+                    </div>
+                    <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
+                        <div className="self-stretch flex flex-col justify-start items-start gap-[5px]">
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-base font-medium font-['Montserrat'] leading-snug tracking-tight">Followed
+                                Mosques List
+                            </div>
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-sm font-normal font-['Montserrat'] leading-tight tracking-wide">This
+                                screen shows all the mosques you’ve chosen to follow, helping you stay connected to your
+                                preferred locations.
+                            </div>
+                        </div>
+                        <div className="self-stretch flex flex-col justify-start items-start gap-[5px]">
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-base font-medium font-['Montserrat'] leading-snug tracking-tight">Mosque
+                                Info Cards
+                            </div>
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-sm font-normal font-['Montserrat'] leading-tight tracking-wide">Each
+                                mosque card displays the name, address, and distance from your current location for
+                                quick access to relevant details.
+                            </div>
+                        </div>
+                        <div className="self-stretch flex flex-col justify-start items-start gap-[5px]">
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-base font-medium font-['Montserrat'] leading-snug tracking-tight">One-Tap
+                                Actions
+                            </div>
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-sm font-normal font-['Montserrat'] leading-tight tracking-wide">Use
+                                the “Following” button to manage your connection or navigate to detailed mosque pages
+                                for prayer timings and directions.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }

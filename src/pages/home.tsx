@@ -7,12 +7,15 @@ import MasjidDetailScreenOverview from "../sections/masjid-detail-screen-overvie
 import SalahTrackerScreenOverview from "../sections/salah-tracker-screen-overview.tsx";
 import MyMosqueScreenOverview from "../sections/my-mosque-screen-overview.tsx";
 import ChooseUsCta from "../sections/choose-us-cta.tsx";
+import UpcomingFeatures from "../sections/upcoming-features.tsx";
 
 function Home() {
     return (
         <>
-            <header className={"sticky top-0"}>
-                <Navbar/>
+            <header className={"sticky top-0 left-0"}>
+                <Navbar showBottomNav={true}>
+
+                </Navbar>
             </header>
             <Hero/>
             <DownloadSection/>
@@ -21,6 +24,7 @@ function Home() {
             <MasjidDetailScreenOverview/>
             <SalahTrackerScreenOverview/>
             <MyMosqueScreenOverview/>
+            <UpcomingFeatures/>
             <ChooseUsCta/>
             <DownloadSection/>
         </>

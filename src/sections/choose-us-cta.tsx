@@ -31,6 +31,20 @@ function ChooseUsCta() {
                     </div>
                 </div>
             </div>
+
+            <div className="lg:hidden font-primary">
+                <div className={"flex flex-col justify-center items-center"}>
+                    <div className={"text-xl font-semibold text-ForestGreen"}>
+                        Why Choose Us
+                    </div>
+                    <div className={"text-center text-ForestGreen text-sm px-8 pb-6"}>
+                        At the heart of Mujtama is a vision to bridge tradition with innovation. Our team is dedicated
+                        to integrating modern technology and AI to enhance the way Muslims around the world engage with
+                        their faith. From smarter mosque connectivity to intelligent spiritual tools, we aim to build a
+                        digital ecosystem that empowers individuals and strengthens communities—now and for the future.
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

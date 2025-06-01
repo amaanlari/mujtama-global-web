@@ -109,6 +109,98 @@ function KeyFeatures() {
                     </div>
                 </div>
             </div>
+
+            <div className={"lg:hidden font-primary"}>
+                <div className={"flex flex-wrap gap-2 px-2"}>
+                    {/*  Card 1  */}
+                    <div className={"w-44 border border-gray-200 rounded-lg"}>
+                        <div className={"items-stretch"}>
+                            <div className="w-full h-fit p-2">
+                                <img
+                                    src="/assets/images/feature01.png"
+                                    alt="feature01"
+                                    className="w-full h-auto rounded-lg mb-2"
+                                />
+                            </div>
+                        </div>
+                        <div className={"flex flex-col justify-center items-center gap-2 px-2 pb-2"}>
+                            <div className={"font-bold"}>
+                                Nearby Mosques
+                            </div>
+                            <div className={"text-sm px-2"}>
+                                Find nearby mosques with real-time prayer times and directions, making it easy to stay
+                                connected to your local Muslim community.
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*  Card 2  */}
+                    <div className={"w-44 border border-gray-200 rounded-lg"}>
+                        <div className={"items-stretch"}>
+                            <div className="w-full h-fit p-2">
+                                <img
+                                    src="/assets/images/feature02.png"
+                                    alt="feature02"
+                                    className="w-full h-auto rounded-lg mb-2"
+                                />
+                            </div>
+                        </div>
+                        <div className={"flex flex-col justify-center items-center gap-2 px-2 pb-2"}>
+                            <div className={"font-bold"}>
+                                Salah Tracker
+                            </div>
+                            <div className={"text-sm px-2"}>
+                                Track your daily prayers, get helpful reminders, and monitor your progress to build
+                                consistency in your worship.
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*  Card 3  */}
+                    <div className={"w-44 border border-gray-200 rounded-lg"}>
+                        <div className={"items-stretch"}>
+                            <div className="w-full h-fit p-2">
+                                <img
+                                    src="/assets/images/feature03.png"
+                                    alt="feature03"
+                                    className="w-full h-auto rounded-lg mb-2"
+                                />
+                            </div>
+                        </div>
+                        <div className={"flex flex-col justify-center items-center gap-2 px-2 pb-2"}>
+                            <div className={"font-bold"}>
+                                Quran
+                            </div>
+                            <div className={"text-sm px-2"}>
+                                Read the full Quran in Uthmani and Indo-Pak scripts with clear translations and tafsir
+                                for deeper reflection and understanding.
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*  Card 4  */}
+                    <div className={"w-44 border border-gray-200 rounded-lg"}>
+                        <div className={"items-stretch"}>
+                            <div className="w-full h-fit p-2">
+                                <img
+                                    src="/assets/images/feature04.png"
+                                    alt="feature04"
+                                    className="w-full h-auto rounded-lg mb-2"
+                                />
+                            </div>
+                        </div>
+                        <div className={"flex flex-col justify-center items-center gap-2 px-2 pb-2"}>
+                            <div className={"font-bold"}>
+                                Dua
+                            </div>
+                            <div className={"text-sm px-2"}>
+                                Access a wide collection of authentic daily duas and supplications, including those
+                                from Hisn al-Muslim.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

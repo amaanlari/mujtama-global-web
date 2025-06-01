@@ -72,6 +72,65 @@ function MasjidDetailScreenOverview() {
                     </div>
                 </div>
             </div>
+
+            <div className={"lg:hidden"}>
+                <div
+                    className="px-4 py-6 inline-flex flex-col justify-center items-center">
+                    <div className="self-stretch flex flex-col justify-start items-start gap-[5px]">
+                        <div
+                            className="self-stretch justify-center text-black text-xl font-semibold font-['Montserrat'] leading-7 tracking-wide">Masjid
+                            Detail Screen Overview
+                        </div>
+                        <div
+                            className="self-stretch justify-center text-black text-sm font-normal font-['Montserrat'] leading-tight tracking-wide">Stay
+                            connected to your local mosque with all the essential details in one place. This screen
+                            helps you track prayer times, find directions, and manage your mosque preferences with ease.
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            className="w-full h-full object-cover rounded-[10px]"
+                            src="/assets/images/masjid-detail-screen-overview-image.png"
+                            alt={"masjid detail screen overview"}
+                        />
+                    </div>
+                    <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
+                        <div className="self-stretch flex flex-col justify-start items-start gap-[5px]">
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-base font-semibold font-['Montserrat'] leading-snug tracking-tight">Live
+                                Prayer Countdown
+                            </div>
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-sm font-normal font-['Montserrat'] leading-tight tracking-wide">At
+                                the top, see how much time is left until the next prayer. This real-time countdown helps
+                                you stay on track throughout the day.
+                            </div>
+                        </div>
+                        <div className="self-stretch flex flex-col justify-start items-start gap-[5px]">
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-base font-semibold font-['Montserrat'] leading-snug tracking-tight">Masjid
+                                Information
+                            </div>
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-sm font-normal font-['Montserrat'] leading-tight tracking-wide">Get
+                                full details of the mosque including name, address, and distance from your current
+                                location. Tap “Direction” to navigate or “Following” to keep it in your favorites.
+                            </div>
+                        </div>
+                        <div className="self-stretch flex flex-col justify-start items-start gap-[5px]">
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-base font-semibold font-['Montserrat'] leading-snug tracking-tight">Daily
+                                Prayer Timings
+                            </div>
+                            <div
+                                className="self-stretch justify-center text-[#626262] text-sm font-normal font-['Montserrat'] leading-tight tracking-wide">Check
+                                all five daily prayer times along with Jummah. The currently active or next prayer is
+                                clearly highlighted for quick reference.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
