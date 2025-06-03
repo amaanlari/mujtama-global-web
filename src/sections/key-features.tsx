@@ -113,7 +113,7 @@ function KeyFeatures() {
             <div className={"lg:hidden font-primary"}>
                 <div className={"flex flex-wrap gap-2 px-2"}>
                     {/*  Card 1  */}
-                    <div className={"w-44 border border-gray-200 rounded-lg"}>
+                    <div className={"w-1/2 border border-gray-200 rounded-lg"}>
                         <div className={"items-stretch"}>
                             <div className="w-full h-fit p-2">
                                 <img
