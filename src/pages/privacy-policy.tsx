@@ -313,9 +313,9 @@ function PrivacyPolicy() {
                 </div>
             </div>
 
-            <div className="w-[393px] h-fit relative bg-white overflow-hidden lg:hidden block">
+            <div className="w-full h-fit relative bg-white overflow-hidden lg:hidden block">
                 <div
-                    className="w-[393px] h-[72px] px-[25px] py-[15px] bg-white shadow-[0px_1px_4px_0px_rgba(0,0,0,0.25)] inline-flex flex-col justify-start items-start gap-5">
+                    className="w-full h-fit px-[25px] py-[15px] bg-white shadow-[0px_1px_4px_0px_rgba(0,0,0,0.25)] inline-flex flex-col justify-start items-start gap-5">
                     <div className="self-stretch py-2.5 inline-flex justify-between items-center">
                         <div className="size- flex justify-start items-start gap-2.5">
                             <div data-property-1="Group 174" className="size-[27px] relative">
@@ -587,7 +587,7 @@ function PrivacyPolicy() {
                     </div>
                 </div>
                 <div
-                    className="w-[393px] h-[70px] bg-white shadow-[0px_-1px_0px_0px_rgba(99,99,99,1.00)] inline-flex justify-center items-center gap-2.5">
+                    className="w-full h-[70px] bg-white shadow-[0px_-1px_0px_0px_rgba(99,99,99,1.00)] inline-flex justify-center items-center gap-2.5">
                     <div
                         className="text-center justify-end text-[#06402b] text-xs font-medium font-['Montserrat'] leading-none tracking-wide">©
                         2025 Mujtama Global | Privacy Policy

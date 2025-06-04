@@ -8,6 +8,7 @@ import SalahTrackerScreenOverview from "../sections/salah-tracker-screen-overvie
 import MyMosqueScreenOverview from "../sections/my-mosque-screen-overview.tsx";
 import ChooseUsCta from "../sections/choose-us-cta.tsx";
 import UpcomingFeatures from "../sections/upcoming-features.tsx";
+import Footer from "../components/footer.tsx";
 
 function Home() {
     return (
@@ -27,6 +28,9 @@ function Home() {
             <UpcomingFeatures/>
             <ChooseUsCta/>
             <DownloadSection/>
+            <footer>
+                <Footer/>
+            </footer>
         </>
     )
 }

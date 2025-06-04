@@ -155,7 +155,7 @@ function TermAndConditions() {
             {/*Mobile*/}
             <div className={"lg:hidden"}>
                 <div
-                    className="w-[393px] h-fit px-[25px] py-[15px] bg-white shadow-[0px_1px_4px_0px_rgba(0,0,0,0.25)] inline-flex flex-col justify-start items-start gap-5">
+                    className="w-full h-fit px-[25px] py-[15px] bg-white shadow-[0px_1px_4px_0px_rgba(0,0,0,0.25)] inline-flex flex-col justify-start items-start gap-5">
                     <div className="self-stretch py-2.5 inline-flex justify-between items-center">
                         <div className="size- flex justify-start items-start gap-2.5">
                             <div data-property-1="Group 174" className="size-[27px] relative">
@@ -280,7 +280,7 @@ function TermAndConditions() {
                     </div>
                 </div>
                 <div
-                    className="w-[393px] h-[133px] bg-white shadow-[0px_-1px_0px_0px_rgba(99,99,99,1.00)] inline-flex justify-center items-center gap-2.5">
+                    className="w-full h-fit bg-white shadow-[0px_-1px_0px_0px_rgba(99,99,99,1.00)] inline-flex justify-center items-center gap-2.5">
                     <div className="w-[360px] text-center justify-end"><span
                         className="text-[#626262] text-xs font-medium font-['Montserrat'] leading-none tracking-wide">By using Mujtama, you agree to these Terms & Conditions. May this app be a source of benefit for you!<br/><br/></span><span
                         className="text-[#06402b] text-xs font-medium font-['Montserrat'] leading-none tracking-wide">© 2025 Mujtama Global | Terms & Conditions</span>

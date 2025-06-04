@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar.tsx";
+import Footer from "../components/footer.tsx";
 
 function AboutUs() {
     return (
@@ -34,23 +35,27 @@ function AboutUs() {
                             connect you with your community.
                         </p>
                     </div>
-                    <div className={"relative z-10"}>
-                        <h1 className={"lg:text-5xl text-xl font-semibold"}>
-                            Faith meets convenience
-                        </h1>
-                        <p className={"lg:text-lg text-sm lg:mt-10 mt-4 px-2"}>
-                            Stay connected to your faith wherever you are, whenever you need
-                        </p>
-                        <img
-                            src="/assets/images/GP.png"
-                            alt="Google Play Badge"
-                            width={88}
-                            height={25}
-                            className={"rounded mt-4 lg:mt-6 text-center mx-auto lg:mx-0"}
-                        />
+                    <div className={"flex flex-col items-center justify-center relative"}>
+                        <div
+                            className={"flex flex-col w-full items-center justify-center font-primary text-white"}>
+                            <h1 className={"lg:text-5xl text-xl font-semibold"}>Faith meets convenience</h1>
+                            <span className={"lg:text-xl text-sm md:px-0 px-2 py-2 text-center"}>
+                                Stay connected to your faith wherever you are, whenever you need
+                            </span>
+                        </div>
+                        <div className={"lg:py-12"}>
+                            <img
+                                src={"/assets/images/google-play-btn.png"}
+                                className={"w-40 border-2 border-gray-400 rounded-lg"}
+                                alt={"Google Play"}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
+            <footer>
+                <Footer/>
+            </footer>
         </>
     );
 }

@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar.tsx";
+import Footer from "../components/footer.tsx";
 
 function ContactUsPage() {
     return (
@@ -97,6 +98,9 @@ function ContactUsPage() {
                         </div>
                     </div>
                 </div>
+                <footer>
+                    <Footer/>
+                </footer>
             </div>
             <div className={"lg:hidden"}>
                 <div className="w-[393px] px-[25px] py-5 inline-flex flex-col justify-start items-center gap-5">
@@ -144,7 +148,14 @@ function ContactUsPage() {
                         <div
                             className="self-stretch h-[50px] px-[15px] py-[11px] rounded-[30px] outline outline-1 outline-offset-[-1px] outline-[#d6d6d6] flex flex-col justify-start items-start gap-2.5">
                             <div className="size- inline-flex justify-start items-center gap-2.5">
-                                <div className="w-[21px] h-[19px] bg-[#626262]"/>
+                                <div className="w-[21px] h-[18px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 21 19"
+                                         fill="none">
+                                        <path
+                                            d="M10 9L2 4V14H11V16H2C1.45 16 0.979167 15.8042 0.5875 15.4125C0.195833 15.0208 0 14.55 0 14V2C0 1.45 0.195833 0.979167 0.5875 0.5875C0.979167 0.195833 1.45 0 2 0H18C18.55 0 19.0208 0.195833 19.4125 0.5875C19.8042 0.979167 20 1.45 20 2V9H18V4L10 9ZM10 7L18 2H2L10 7ZM17 19L15.6 17.6L17.175 16H13V14H17.175L15.575 12.4L17 11L21 15L17 19ZM2 4V15V9V9.075V2V4Z"
+                                            fill="#636363"/>
+                                    </svg>
+                                </div>
                                 <div
                                     className="w-[180px] opacity-80 justify-start text-[#626262] text-xs font-medium font-['Montserrat'] leading-[27px] tracking-tight">Your
                                     email
@@ -196,6 +207,9 @@ function ContactUsPage() {
                         <div className="self-stretch h-[45px] rounded-lg"/>
                     </div>
                 </div>
+                <footer>
+                    <Footer/>
+                </footer>
             </div>
         </>
     )
