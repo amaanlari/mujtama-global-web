@@ -54,23 +54,13 @@ export default function Navbar({ showBottomNav = false }: NavbarProps) {
                 </nav>
 
 
-                <a href={"play-store-link"}>
-                    <div
-                        className={"flex items-center justify-center py-2 px-3 rounded-2xl border-4 border-[#d6d6d6] bg-black gap-2"}>
-                        <div>
-                            <img
-                                src="/assets/images/google-play-badge.png"
-                                alt="Google Play Badge"
-                                width={24}
-                                height={24}
-                            />
-                        </div>
-                        <div className={"flex flex-col items-start p-0"}>
-                            <span
-                                className={"text-[0.5rem] leading-0 text-white uppercase font-bold font-Lato p-0 pt-1"}>Get it on</span>
-                            <span className={"text-white font-bold font-Lato p-0"}>Google Play</span>
-                        </div>
-                    </div>
+                <a href={"https://play.google.com/store/apps/details?id=com.mujtamaglobal.app"}>
+                    <img
+                        src="/assets/images/GetItOnGooglePlay_Badge_Web_color.png"
+                        alt="Get it on Google Play"
+                        width={150}
+                        height={50}
+                    />
                 </a>
             </div>
 
