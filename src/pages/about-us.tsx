@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar.tsx";
 import Footer from "../components/footer.tsx";
+import DownloadSection from "../sections/download-section.tsx";
 
 function AboutUs() {
     return (
@@ -13,7 +14,7 @@ function AboutUs() {
                     {/* Overlay to darken the background image */}
                     <div className={"absolute inset-0 bg-black opacity-50"}></div>
 
-                    <div className={"relative z-10 flex flex-col justify-center items-center py-25"}>
+                    <div className={"relative z-10 flex flex-col justify-center items-center lg:py-25"}>
                         <h1 className={"lg:text-6xl text-3xl font-bold"}>About Us</h1>
                         <p className={"lg:text-lg  lg:mt-10 mt-4"}>
                             At Mujtama, our mission is to make it easier for Muslims to stay connected to their faith in
@@ -35,21 +36,8 @@ function AboutUs() {
                             connect you with your community.
                         </p>
                     </div>
-                    <div className={"flex flex-col items-center justify-center relative"}>
-                        <div
-                            className={"flex flex-col w-full items-center justify-center font-primary text-white"}>
-                            <h1 className={"lg:text-5xl text-xl font-semibold"}>Faith meets convenience</h1>
-                            <span className={"lg:text-xl text-sm md:px-0 px-2 py-2 text-center"}>
-                                Stay connected to your faith wherever you are, whenever you need
-                            </span>
-                        </div>
-                        <div className={"lg:py-12"}>
-                            <img
-                                src={"/assets/images/google-play-btn.png"}
-                                className={"w-40 border-2 border-gray-400 rounded-lg"}
-                                alt={"Google Play"}
-                            />
-                        </div>
+                    <div className={"pt-6"}>
+                        <DownloadSection classes="text-white relative"/>
                     </div>
                 </div>
             </div>

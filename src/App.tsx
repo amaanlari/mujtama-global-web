@@ -5,11 +5,13 @@ import AboutUs from "./pages/about-us.tsx";
 import ContactUs from "./pages/contact-us.tsx";
 import TermAndConditions from "./pages/term-and-conditions.tsx";
 import PrivacyPolicy from "./pages/privacy-policy.tsx";
+import ScrollToTop from "./components/scroll-to-top.tsx";
 
 function App() {
 
     return (
         <BrowserRouter>
+            <ScrollToTop/>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path={"/about-us"} element={<AboutUs/>}/>

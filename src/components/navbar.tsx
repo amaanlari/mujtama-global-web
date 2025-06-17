@@ -111,24 +111,27 @@ export default function Navbar({ showBottomNav = false }: NavbarProps) {
             {/*    )}*/}
             {/*</div>*/}
 
-            {/* Bottom Nav (Mobile) */}
-            <div className={"w-full flex p-4 items-stretch justify-between bg-[#E2F6FC] drop-shadow-sm drop-shadow-accent-cyan px-8 rounded-t-2xl md:hidden"}>
+            {/* Top Nav (Mobile) */}
+            <div
+                className={"w-full flex p-4 items-stretch justify-between bg-[#E2F6FC] drop-shadow-sm drop-shadow-accent-cyan px-8 rounded-t-2xl md:hidden"}>
                 <div className={"flex gap-2"}>
-                    <img src="/assets/logo.svg" alt="Mujtama Logo" width={25} height={25} />
-                    <span className={"text-ForestGreen font-primary font-bold"}>Mujtama</span>
+                    <img src="/assets/logo.svg" alt="Mujtama Logo" width={25} height={25}/>
+                    <span className={"text-ForestGreen font-primary font-bold text-base"}>Mujtama</span>
                 </div>
-                <img
-                    src="/assets/images/GP.png"
-                    alt="Google Play Badge"
-                    width={88}
-                    height={25}
-                    className={"rounded"}
-                />
+                <a href={"https://play.google.com/store/apps/details?id=com.mujtamaglobal.app"}>
+                    <img
+                        src="/assets/images/GetItOnGooglePlay_Badge_Web_color.png"
+                        alt="Get it on Google Play"
+                        width={90}
+                        height={25}
+                    />
+                </a>
             </div>
 
             {showBottomNav && (
                 <div className={"px-4 py-1 bg-white lg:hidden"}>
-                    <div className={"z-50 flex p-2 px-6 gap-2 rounded-2xl shadow-lg/30 border-t border-gray-400 justify-between items-center"}>
+                    <div
+                        className={"z-50 flex p-2 px-6 gap-2 rounded-2xl shadow-lg/30 border-t border-gray-400 justify-between items-center"}>
                         <Link
                             to={"/"}
                         >Home</Link>

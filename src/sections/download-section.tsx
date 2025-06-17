@@ -1,10 +1,14 @@
-function downloadSection() {
+type Props = {
+    classes?: string;
+}
+
+function downloadSection({classes = "text-ForestGreen"}: Props) {
     return (
 
         <div>
-            <div className={"flex flex-col items-center justify-center"}>
+            <div className={"flex flex-col items-center justify-center " + classes}>
                 <div
-                    className={"flex flex-col w-full items-center justify-center font-primary text-ForestGreen"}>
+                    className={"flex flex-col w-full items-center justify-center font-primary"}>
                     <h1 className={"lg:text-5xl text-xl font-semibold"}>Faith meets convenience</h1>
                     <span className={"lg:text-xl text-sm md:px-0 px-2 py-2 text-center"}>
                                 Stay connected to your faith wherever you are, whenever you need
